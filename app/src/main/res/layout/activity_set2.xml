@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/set2_la"
+    tools:context="com.gogle.playstore.guessbirthday.Set2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="65dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/yesbtn2"
+                    android:background="@color/coloryes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:textSize="18sp"
+                    android:text="@string/YES1"/>
+
+                <Button
+                    android:id="@+id/nobtn2"
+                    android:layout_marginLeft="30dp"
+                    android:background="@color/colorno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textcolor"
+                    android:textSize="18sp"
+                    android:text="@string/NO1"/>
+
+            </LinearLayout>
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
